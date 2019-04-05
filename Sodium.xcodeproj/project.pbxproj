@@ -23,6 +23,7 @@
 		09A5AC121F74466700D3200B /* SecretStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A5AC111F74466700D3200B /* SecretStream.swift */; };
 		09A943D31A4EB5F500C8A04F /* Sodium.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09A943C71A4EB5F500C8A04F /* Sodium.framework */; };
 		09A943DA1A4EB5F500C8A04F /* SodiumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A943D91A4EB5F500C8A04F /* SodiumTests.swift */; };
+		1F9F4D4B22521BBF00401B2B /* Aead-AESGCM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9F4D4A22521BBF00401B2B /* Aead-AESGCM.swift */; };
 		28FA5A1520C9E71F00D7BE2B /* Aead.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87EEC3F2063C655006C830D /* Aead.swift */; };
 		6096E7321F194FA800E6599F /* KeyDerivation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A274051F13AD9300958702 /* KeyDerivation.swift */; };
 		60C211E71EB73D3900882AD0 /* Auth.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0918C771E92489100C1DC33 /* Auth.swift */; };
@@ -266,6 +267,7 @@
 		09BB142E1E75CA6F00659F17 /* crypto_kx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypto_kx.h; sourceTree = "<group>"; };
 		09BB142F1E75CA6F00659F17 /* crypto_secretbox_xchacha20poly1305.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypto_secretbox_xchacha20poly1305.h; sourceTree = "<group>"; };
 		09BB14301E75CA6F00659F17 /* crypto_stream_xchacha20.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypto_stream_xchacha20.h; sourceTree = "<group>"; };
+		1F9F4D4A22521BBF00401B2B /* Aead-AESGCM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Aead-AESGCM.swift"; sourceTree = "<group>"; };
 		60CB27B71EB370540079CA46 /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
 		65437DA2203AF0610027D691 /* Package.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		65437DA3203AF0610027D691 /* Sodium.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Sodium.podspec; sourceTree = "<group>"; };
@@ -403,6 +405,7 @@
 		09A943C91A4EB5F500C8A04F /* Sodium */ = {
 			isa = PBXGroup;
 			children = (
+				1F9F4D4A22521BBF00401B2B /* Aead-AESGCM.swift */,
 				09A943CA1A4EB5F500C8A04F /* Supporting Files */,
 				09A943E91A4EB70900C8A04F /* libsodium */,
 				09A943CC1A4EB5F500C8A04F /* Sodium.h */,
@@ -965,6 +968,7 @@
 				D2A274061F13AD9300958702 /* KeyDerivation.swift in Sources */,
 				DD35BB6320932A83006BF351 /* Bytes.swift in Sources */,
 				09A5AC121F74466700D3200B /* SecretStream.swift in Sources */,
+				1F9F4D4B22521BBF00401B2B /* Aead-AESGCM.swift in Sources */,
 				DD35BB5020924A35006BF351 /* NonceGenerator.swift in Sources */,
 				091C7CDA1A507E95002E5351 /* ShortHash.swift in Sources */,
 				095D805B1A4F35CA000B83F9 /* RandomBytes.swift in Sources */,
